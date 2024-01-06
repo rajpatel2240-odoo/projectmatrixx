@@ -11,7 +11,7 @@ cd matrixx
 ```
 ### Initializing Repo
 ```
-repo init -u https://github.com/ProjectMatrixx/android.git -b 13.0 --git-lfs
+repo init -u https://github.com/rajpatel2240-odoo/projectmatrixx.git -b 13.0 --git-lfs --depth=1
 ```
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
