@@ -9,7 +9,7 @@ cd matrixx
 ```
 ### Initializing Repo
 ```
-repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
+repo init -u https://github.com/rajpatel2240-odoo/projectmatrixx.git -b 14.0 --git-lfs --depth=1
 ```
 
 ### Now sync sources

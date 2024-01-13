@@ -70,4 +70,16 @@
 
   <project path="vendor/certification" name="android_vendor_certification" remote="matrixx-gitlab" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="bitbucket" />
+
+  <!-- Dubai Repos -->
+  <remote name="gitlab" fetch="https://gitlab.com/"/>
+  <project name="rajpatel2240-odoo/android_device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="matrix_14" clone-depth="1"/>
+  <project name="rajpatel2240-odoo/android_device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="lineage-21" clone-depth="1"/>
+  <project name="rajpatel2240/proprietary_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="gitlab" revision="lineage-21" clone-depth="1" />
+  <project name="rajpatel2240/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="lineage-21" clone-depth="1" />
+  <project name="LineageOS/android_kernel_motorola_sm7325" path="kernel/motorola/sm7325" remote="github" revision="lineage-20" clone-depth="1" />
+  <project name="surajdazz1/firmware_images" path="vendor/motorola/dubai-firmware" remote="gitlab" revision="dubai" clone-depth="1"/>
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-21" clone-depth="1"/>
+  <project name="surajdazz/hardware_motorola" path="hardware/motorola" remote="github" revision="crd"/>
+
 </manifest>
