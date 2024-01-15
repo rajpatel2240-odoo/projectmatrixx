@@ -79,5 +79,6 @@
   <project name="the-muppets/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="lineage-21" clone-depth="1" />
   <project name="LineageOS/android_kernel_motorola_sm7325" path="kernel/motorola/sm7325" remote="github" revision="lineage-21" clone-depth="1" />
   <project name="surajdazz/hardware_motorola" path="hardware/motorola" remote="github" revision="crd"/>
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-21" clone-depth="1"/>
 
 </manifest>
