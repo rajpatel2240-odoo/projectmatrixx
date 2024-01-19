@@ -73,13 +73,12 @@
 
   <!-- Dubai Repos -->
   <remote name="gitlab" fetch="https://gitlab.com/"/>
-  <project name="ArrowOS-Devices/android_device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1"/>
-  <project name="ArrowOS-Devices/android_device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="arrow-13.1" clone-depth="1"/>
-  <project name="ArrowOS-Devices/android_kernel_motorola_dubai" path="kernel/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1"/>
-  <project name="ArrowOS-Devices/android_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="github" revision="arrow-13.1" clone-depth="1"/>
-  <project name="arrowos-project/ArrowOS-Devices/proprietary_vendor_motorola_firmware" path="vendor/motorola/firmware" remote="gitlab" revision="arrow-13.1" clone-depth="1"/>
-  <project name="arrowos-project/ArrowOS-Devices/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="arrow-13.1" clone-depth="1"/>
-  <project name="ArrowOS-Devices/android_hardware_motorola" path="hardware/motorola" remote="github" revision="arrow-13.1" clone-depth="1"/>
+  <project name="rajpatel2240-odoo/android_device_motorola_dubai" path="device/motorola/dubai" remote="github" revision="matrix_14" clone-depth="1"/>
+  <project name="rajpatel2240-odoo/android_device_motorola_sm7325-common" path="device/motorola/sm7325-common" remote="github" revision="lineage-21" clone-depth="1"/>
+  <project name="the-muppets/proprietary_vendor_motorola_dubai" path="vendor/motorola/dubai" remote="gitlab" revision="lineage-21" clone-depth="1" />
+  <project name="the-muppets/proprietary_vendor_motorola_sm7325-common" path="vendor/motorola/sm7325-common" remote="gitlab" revision="lineage-21" clone-depth="1" />
+  <project name="LineageOS/android_kernel_motorola_sm7325" path="kernel/motorola/sm7325" remote="github" revision="lineage-21" clone-depth="1" />
   <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-21" clone-depth="1"/>
-
+  <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-21"/>
+  
 </manifest>
